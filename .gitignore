@@ -1,0 +1,42 @@
+# --- Byte-compiled / optimized / DLL files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (CRITICAL to ignore) ---
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# --- Distribution / Packaging ---
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Unit test / Coverage reports ---
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+.pytest_cache/
+
+# --- Environment Variables (Security) ---
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+
+global_health_data.csv
